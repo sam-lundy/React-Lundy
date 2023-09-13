@@ -1,0 +1,47 @@
+.display-posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70vh;
+    width: 100%;
+    padding: 20px;
+    overflow: auto;
+    background-color: #787272;
+}
+
+.post-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    padding: 15px;
+    margin: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+}
+
+.icon-style {
+    margin: 10px 15px;
+    padding: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.like-icon, .dislike-icon {
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+
+.icon-style:hover {
+    color: #007bff;
+}
+
+.reply-form {
+    width: 100%;
+    margin-top: 10px;
+    
+}

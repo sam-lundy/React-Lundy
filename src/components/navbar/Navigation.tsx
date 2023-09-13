@@ -1,17 +1,19 @@
 import './Navigation.css'
+import { Link } from 'react-router-dom'
 
 
-const Navigation = () => {
+const Navigation: React.FC = () => {
   return (
     <>
       <div className='navbar'>
         <ul className="navbar-nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/Contact">Contact</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/create-post">Create Post</Link></li>
+          <li><Link to="/display-posts">Posts</Link></li>
         </ul>
       </div>
     </>
-  )
+  );
 }
+
 export default Navigation
